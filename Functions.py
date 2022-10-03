@@ -256,7 +256,7 @@ for i in range(len(proverb)//2):
     new_proverb = new_proverb + proverb[2*i+1] + proverb[2*i]
 if len(proverb)%2 !=0:
     new_proverb = new_proverb + proverb[-1]
-print(new_proverb, end = '')
+print(new_proverb, end='')
 
 
 
