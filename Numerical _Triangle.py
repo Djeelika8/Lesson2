@@ -72,9 +72,9 @@ for i in range(1, n+1):            # Здесь количество строк 
 
 
 def paramid():
-	odd = 1
-	for i in range(1, 6):
-		k = 0
+    odd = 1
+    for i in range(1, 6):
+        k = 0
 		for j in range(1, odd+1):
 			if j <= i:
 				k=k+1
